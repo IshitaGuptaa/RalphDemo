@@ -1,0 +1,1153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Service|Ralph Lauren </title>
+<meta charset="UTF-8">
+<link rel="icon" href="ralph_lauren_logo.png" type="images/x-icon" >
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+#nav ul{
+  list-style-type:none;
+  background-color:black;
+}
+
+#nav>ul{
+  overflow:hidden;
+  margin-top:-120px;
+  
+}
+
+#nav>ul>li{
+  float:left;
+ }
+
+#nav ul>li>a{
+  text-decoration:none;
+  color:white;
+  display:block;
+  padding:20px;
+  font-size:25px;
+  margin-left:35px; 
+}
+
+#nav{
+position:-webkit-sticky;
+  position:sticky;
+  top:0;
+  z-index:4;
+ width:100%;
+ }
+
+
+#active{
+   
+   background:linear-gradient(grey,black);
+ }
+
+#nav a:hover{
+   background-color:white;
+   color:black ;
+}
+
+
+#nav i{color:white;
+ margin-left:40px;}
+
+#nav i:hover{
+   color:black;
+   background-color:white;
+}
+
+
+
+#loc:hover #K{
+color:black;
+background-color:white;}
+
+.stor{
+display:none;
+color:black;
+background-color:rgba(240,240,240,1);
+padding:5px 15px;
+position:absolute;
+}
+
+.X:hover .stor {
+   display:block;
+}
+
+
+#sear{
+display:none;
+width:90%;
+height:100px;
+position:absolute;
+z-index:6;
+background-color:rgb(250,250,250);
+margin-left:-1120px;
+margin-top:10px;
+}
+
+
+
+#foot{
+background-color:black;
+}
+
+
+#social{
+margin-left:400px;
+padding:25px 0px;
+}
+
+
+
+#social a{
+text-decoration:none;
+}
+
+
+#social div{
+float:left;
+margin-top:-10px;
+}
+
+#social i{
+margin:0px 25px;
+color:white;
+display:inline;
+font-size:20px;
+}
+
+
+
+#fac{
+display:none;
+}
+
+#face:hover #fac{
+display:block;
+}
+
+
+
+#link ul{
+list-style-type:none;
+margin-left:140px;}
+
+#link a{
+color:white;
+text-decoration:none;
+display:block;
+margin-bottom:10px;
+}
+
+#link p{
+color:white;
+font-size:20px;
+margin-left:170px;}
+
+#contact{
+color:white;
+margin-left:100px;
+font-size:20px;
+}
+
+#contact pre{
+margin:10px 0px;}
+
+.drop:hover .dropdown{
+display:block;}
+
+
+.dropdown { 
+ display:none;
+ position:absolute;
+ z-index:8;
+ background:linear-gradient(black,grey);
+padding:30px;
+ }
+
+.dropdown a{
+  
+  text-decoration:none;
+  color:white;
+  display:block;
+  padding:10px;
+  font-size:17px; 
+  font-family:"times new roman";
+}
+
+
+.D{
+position:relative;
+}
+
+
+.hovp {
+
+margin:25px 24px;
+font-size:200px;
+font-weight:700;
+font-famiy: algerian,stencil,'sans-serif';
+cursor:pointer;
+position:relative;
+z-index:1;
+-webkit-transition: color 0.9s ease-out;
+transition: color 0.9s ease-out;
+}
+
+
+.hov{
+-webkit-transition: background-color 0.5s ease-in-out;
+transition:  background-color 0.5s ease-in-out;
+background-color:rgba(0,0,0,0);
+color:rgba(255,255,255,0);
+position:relative;
+z-index:1;
+}
+
+.hovimg img{
+cursor:pointer;
+
+}
+
+
+.hovimg img:hover{
+filter:brightness(10%);
+
+}
+
+
+.hovimg:hover .hov {
+background-color:rgba(0,0,0,1);
+color:rgba(255,255,255,1);
+
+
+}
+
+
+.gift{
+width:0px;
+transition: width 0.4s ease-out;
+-webkit-transition: width 0.4s ease-out;
+padding:8.5px 0px;
+float:left;
+font-size:20px;
+margin:0px 0px;
+cursor:pointer;
+background-color:rgba(240,240,240,1);
+color:rgba(0,0,0,0);
+}
+
+
+.gifts i:hover .gift{
+width:65px;
+padding-left:12px;
+}
+
+.gifts{
+cursor:pointer;
+width:45px;
+background-color:black;
+float:left;
+overflow:hidden;
+color:rgba(240,240,240,1);
+}
+
+.gifts:hover{
+margin-left:76px;
+}
+
+
+
+.gift:hover{
+width:65px;
+padding-left:5px;
+color:rgba(255,255,255,1);
+}
+
+
+
+.G:hover .gifts{
+margin-left:76px;
+}
+
+.G:hover .gift{
+width:65px;
+padding-left:5px;
+color:rgba(0,0,0,1);
+
+}
+
+
+.cont{
+background-color:rgba(0,0,0,1);
+width:0%;
+overflow:hidden;
+position:fixed;
+z-index:15;
+top:0px;
+left:0px;
+transition:0.5s;
+}
+
+.cont i{
+color:rgba(240,240,240,0.5);
+font-size:50px;
+margin:0% 90%;
+padding-top:30px;
+cursor:pointer;
+transition:0.5s;
+}
+
+.cont i:hover {
+color:white;
+}
+
+
+.content{
+display:block;
+padding:20px 0px;
+text-align:center;
+position:reltive;
+z-index:15;
+width:100%;
+}
+
+.content p{
+color:rgba(240,240,240,0.5);
+}
+
+
+.P{
+cursor:pointer;
+}
+
+input{
+padding:5px;
+}
+
+.G{
+width:10%;
+float:left;
+position:fixed;
+padding-left:2px;
+}
+
+
+
+#D{
+z-index:5;}
+
+#E{
+z-index:5;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #ship td,#ship th{
+width:40px;
+height:30px;
+padding:20px;
+}
+
+#ship , #ship td,#ship th {
+border:1px solid grey;
+border-collapse:collapse;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+#info{
+width:25%;
+font-family:"hco gotham book";
+margin-left:45px;
+padding-right:10px;
+}
+
+#info ul{
+list-style-type:none;
+}
+
+#info ul p{
+margin-bottom:4px;
+margin-top:23px;
+font-weight:600;
+
+}
+
+#info a{
+margin-left:15px;
+color:grey;
+text-decoration:none;
+}
+
+
+</style>
+</head>
+<body>
+
+
+<div style="margin:114px 0px;" class="G P" id="E" onclick="openNa()" >
+  <a href="#"> <p class="gift">Sign_In</p></a>
+  <div class="gifts" >
+    <i class="fa fa-user" style="font-size:40px;padding:0px 8px"></i>
+  </div>
+</div>
+
+<div class="cont" id="Sign">
+  <i onclick="closeNa()" class="fa fa-times" ></i>
+  <img src="download (1).png" alt="RALPH LAUREN" style="margin:30px 34.5%;position:relative;">
+  <div class="content">
+    <form>
+      <p style="margin-top:0px;">Username</p>
+      <input type="text" name="username"  size="50" placeholder="Username" > </input>
+      <p>Mail Id</p>
+      <input type="mail" name="Mail-Id"  size="50" placeholder="Mail-Id" > </input>
+      <p>Password</p>
+      <input type="password" name="password" size="50"  placeholder="Password"> </input>
+      <p><br/></p>
+      <input type="Submit" value="Submit" style="padding:6px 50px"></input>
+      <br/>
+      <p> Already have an account?  <a href="#" style="color:white;text-decoration:none;"   onclick="openNav()"> Log_In</a></p>
+      </form>
+   </div>
+</div>
+
+
+
+
+<div style="margin:214px 0px;" class="G P " id="D" onclick="openNav()">
+  <a href="#"> <p class="gift">Log_In</p></a>
+  <div class="gifts" >
+    <i class="fa fa-user-circle-o" style="font-size:40px;padding:0px 3px"></i>
+  </div>
+</div>
+
+<div class="cont" id="Log">
+  <i onclick="closeNav()" class="fa fa-times"> </i>
+  <img src="download (1).png" alt="RALPH LAUREN" style="margin:30px 34.5%;position:relative;">
+  <div class="content">
+    <form>
+      <p>Username</p>
+      <input type="text" name="username" size="50" placeholder="Username" > </input>
+      <p>Password</p>
+      <input type="password" name="password" size="50" placeholder="Password"> </input>
+      <p><br/></p>
+      <input type="Submit" value="Submit" style="padding:6px 50px"></input>
+      <p><br/></p>
+      <a href="#" style="text-decoration:none;color:white">Forgot Password ?</a>
+      <p style="margin-bottom:0px;padding-bottom:10px;"> Don't have an account?   <a href="#" style="color:white;text-decoration:none;"  onclick="openNa()"> Sign_In</a></p>
+    </form>
+  </div>
+
+</div>
+
+
+
+<div style="margin:314px 0px" class="G">
+  <a href="#"> <p class="gift">GIFTS</p></a>
+  <div class="gifts" >
+    <i class="fa fa-gift" style="font-size:40px;padding:0px 5px"></i>
+  </div>
+</div>
+
+<div style="margin:414px 0px"  class="G">
+  <a href="#"><p class="gift" > SALES </p></a>
+  <div class="gifts" >
+    <i class="fa fa-percent" style="font-size:30px;padding:5px 8px"></i>
+  </div>
+</div>
+
+
+<div style="margin:514px 0px"  class="G">
+  <a href="#"><p class="gift" >EVENT</p></a>
+  <div class="gifts" >
+    <i class="fa fa-television" style="font-size:30px;padding:5px 8px"></i>
+  </div>
+</div>
+
+
+
+<div id="nav">
+  <ul  style="margin-top:0px">
+    <li>
+       <a href="#" id="active"> Home  </a>
+    </li>
+    <li>        <a href="#">About Us  </a>
+    </li>
+    <li class="drop" >
+       <a href="#"  class="D" >Men </a>
+<div style=" margin-left:-279px;" class="dropdown">
+<div style="float:left;">
+<p style="font-size:20px;color:white;"><a href="#" style="font-size:20px;"> CASUALS </a></p>
+
+<a href="#">Jeans</a>
+<a href="#">Shirts & T-Shirts</a>
+<a href="#">Shorts & Swimwear</a>
+<a href="#">Sweatshirts</a>
+<a href="#">Sweatpants</a>
+<a href="#">Suspenders</a>
+<a href="#">Sweaters & Jackets</a>
+<a href="#">Coats & Vests</a>
+<a href="#">Pajamas & Robes</a>
+<a href="#">Kurtas</a>
+</div>
+
+
+
+<div style="float:left;margin-left:50px">
+<p style="color:white;margin-left:3px;"><a href="#" style="font-size:20px;"> DRESSES </a> </p>
+
+<a href="#">Single Breasted</a>
+<a href="#">Double Breasted</a>
+<a href="#">Lounge Suits</a>
+<a href="#">Dinner Suits</a>
+<a href="#">Business Suits</a>
+<a href="#">Mandarin Suits</a>
+<a href="#">Wedding Suits</a>
+<a href="#">Sherwanis</a>
+<a href="#">Zoot Suits</a>
+<a href="#">Tuxedos</a>
+
+</div>
+
+
+<div style="float:left;margin-left:50px">
+<p style="font-size:20px;color:white;"> <a href="#" style="font-size:20px;">FORMALS</a> </p>
+
+<a href="#">Trousers</a>
+<a href="#">Blazers & Vests</a>
+<a href="#">Dress Shirts</a>
+<a href="#">Suits & Tuxedos</a>
+<a href="#">Ties</a>
+<a href="#">Bow Ties</a>
+<a href="#">Pocket Squares</a>
+<a href="#">Cuff links</a>
+</div>
+
+
+<div style="float:left;margin-left:50px">
+<p style="font-size:20px;color:white;"> <a href="#" style="font-size:20px;">ACCESSORIES</a> </p>
+
+<a href="#">Bags</a>
+<a href="#">Belts</a>
+<a href="#">Fragrance</a>
+<a href="#">Sunglasses</a>
+<a href="#">Wallets</a>
+<a href="#">Watches</a>
+<a href="#">Socks</a>
+<a href="#">Hats</a>
+<a href="#">Sunglasses </a>
+<a href="#">Footwear</a>
+</div>
+
+
+<img src="images (27).jpg" alt="MEN" style="margin-left:70px;width:330px;height:430px;margin-top:30px;float:left;margin-right:20px">
+
+</div>
+</li>    
+    <li class="drop" >
+       <a href="#" class="D">Women  </a>
+
+<div style=" margin-left:-400px;" class="dropdown">
+<div style="float:left;">
+<p style="font-size:20px;color:white;"><a href="#" style="font-size:20px;"> CASUALS </a></p>
+
+<a href="#">Jeans</a>
+<a href="#">Summer Dresses</a>
+<a href="#">Shirts & T-Shirts</a>
+<a href="#">Tops</a>
+<a href="#">Shorts</a>
+<a href="#">Skirts</a>
+<a href="#">Swimsuits</a>
+<a href="#">Dungaries</a>
+<a href="#">Sweaters & Jackets</a>
+<a href="#">Suits/Kurtis</a>
+
+</div>
+
+<div style="float:left;margin-left:40px">
+<p style="color:white;margin-left:3px;"><a href="#" style="font-size:20px;"> DRESSES </a> </p>
+
+<a href="#">Casual Maxi</a>
+<a href="#">Slip Dress</a>
+<a href="#">Sheath Dress</a>
+<a href="#">Flared Dress</a>
+<a href="#">Lace Dress</a>
+<a href="#">Party Dress</a>
+<a href="#">Statement Gowns</a>
+<a href="#">Wedding Gown</a>
+<a href="#">Lahengas</a>
+</div>
+
+
+<div style="float:left;margin-left:40px">
+<p style="font-size:20px;color:white;"> <a href="#" style="font-size:20px;">FORMALS</a> </p>
+
+<a href="#">Trousers</a>
+<a href="#">Dress Coats</a>
+<a href="#">Blazers & Vests</a>
+<a href="#">Dress Shirts</a>
+<a href="#">Dress Skirts</a>
+<a href="#">Ties</a>
+<a href="#">Long Evening Gowns</a>
+
+</div>
+
+
+<div style="float:left;margin-left:40px">
+<p style="font-size:20px;color:white;"> <a href="#" style="font-size:20px;">ACCESSORIES</a> </p>
+
+<a href="#">Handbags</a>
+<a href="#">Belts</a>
+<a href="#">Fragrance</a>
+<a href="#">Sunglasses</a>
+<a href="#">Jewelry</a>
+<a href="#">Watches</a>
+<a href="#">Socks & Tights</a>
+<a href="#">Hats</a>
+<a href="#">Scarves</a>
+<a href="#">Footwear </a>
+</div>
+
+
+
+<img src="images (5).jpg" alt="WOMEN" style="margin-left:70px;width:330px;height:430px;margin-top:25px;float:left;margin-right:20px">
+
+</div>
+
+
+</li>
+    <li class="drop" >
+       <a href="#" class="D">Children</a>
+<div style=" margin-left:-554px;" class="dropdown">
+<div style="float:left;">
+<p style="font-size:20px;color:white;"><a href="#" style="font-size:20px;"> BOYS </a></p>
+
+<a href="#">Jeans</a>
+<a href="#">Shirts & T-Shirts</a>
+<a href="#">Shorts</a>
+<a href="#">Suits</a>
+<a href="#">Sweatshirts</a>
+<a href="#">Pajamas</a>
+<a href="#">Sweaters</a>
+<a href="#">Jackets & Sport Coats</a>
+
+</div>
+
+
+<div style="float:left;margin-left:30px">
+<p style="color:white;margin-left:3px;"><a href="#" style="font-size:20px;"> GIRLS </a> </p>
+
+<a href="#">T-Shirts & Tops</a>
+<a href="#">Polo Shirts</a>
+<a href="#">Shorts & Skirts</a>
+<a href="#">Swimsuits</a>
+<a href="#">Jeans</a>
+<a href="#">Sweaters & Jackets</a>
+<a href="#">Sweatshirts</a>
+<a href="#">Gowns</a>
+<a href="#">Pajamas</a>
+<a href="#">Lahengas</a>
+</div>
+
+
+<div style="float:left;margin-left:30px">
+<p style="font-size:20px;color:white;"> <a href="#" style="font-size:20px;">INFANTS</a> </p>
+
+<a href="#">Polo Shirts</a>
+<a href="#">One-Pieces</a>
+<a href="#">T-Shirts & Tops</a>
+<a href="#">Swimwear</a>
+<a href="#">Sets</a>
+<a href="#">Sweaters</a>
+<a href="#">Jackets</a>
+<a href="#">Shorts & Jeans</a>
+</div>
+
+<div style="float:left;margin-left:30px">
+<p style="font-size:20px;color:white;"> <a href="#" style="font-size:20px;">ACCESSORIES</a> </p>
+
+<a href="#">Hats</a>
+<a href="#">Belts</a>
+<a href="#">Fragrance</a>
+<a href="#">Sunglasses</a>
+<a href="#">Jewelry</a>
+<a href="#">Watches</a>
+<a href="#">Socks & Tights</a>
+<a href="#">Bath Robes</a>
+<a href="#">Scarves</a>
+</div>
+
+
+<img src="images (3).jpeg" alt="KIDS" style="margin-left:30px;width:429px;height:340px;margin-top:65px;float:left;">
+
+</div>
+</li>
+
+
+<li class="drop">
+    <a href="#" class="D">Decor</a>
+<div style=" margin-left:-717px;" class="dropdown">
+<div style="float:left;">
+<p style="font-size:20px;color:white;"><a href="#" style="font-size:20px;"> BEDDING </a></p>
+
+<a href="#">Bedding Collections</a>
+<a href="#">Duvets & Comforters</a>
+<a href="#">Sheets & Pillowcases</a>
+<a href="#">Throws & Blankets</a>
+<a href="#">Shams</a>
+<a href="#">Throw Pillows</a>
+
+</div>
+
+
+<div style="float:left;margin-left:50px">
+<p style="color:white;margin-left:3px;"><a href="#" style="font-size:20px;"> DECOR </a> </p>
+
+<a href="#">Lighting</a>
+<a href="#">Rugs</a>
+<a href="#">Artwork & Frames</a>
+<a href="#">Candles & Hurricanes</a>
+<a href="#">Decorative Accessories</a>
+<a href="#">Books</a>
+
+</div>
+
+<div style="float:left;margin-left:50px">
+<p style="font-size:20px;color:white;"> <a href="#" style="font-size:20px;">DINING</a> </p>
+
+<a href="#">Dinnerware</a>
+<a href="#">Dinnerware Collections</a>
+<a href="#">Bar & Glassware</a>
+<a href="#">Barware Collections</a>
+<a href="#">Table Linens</a>
+<a href="#">Serveware</a>
+</div>
+
+<img src="images (12).jpeg" alt="DECOR" style="margin-left:50px;width:450px;height:300px;margin-top:25px;float:left;">
+</div>
+    </li>
+   
+<li>
+    <a href="#">Contact Us</a>
+    </li>
+<li class="X">
+      <a href="#" id="loc" style="padding:0px 10px;margin-top:10px;position:relative;"><i class="fa fa-map-marker" id="K" style="font-size:30px;padding:10px 0px;margin:0px 5px;"></i></a>	
+    <p class="stor">Locate Stores</p>
+</li>
+
+<li class="X">
+       <a href="#" id="loc" style="padding:0px 5px;margin-top:10px;position:relative;cursor:pointer" onclick="openS()" ><i class="fa fa-search" style="font-size:27px;padding:10px 0px;margin:0px 5px;" onclick="openS" id="K"></i></a>
+        <p class="stor" style="margin-left:21px">Search</p>
+
+
+<div  align="center" id="sear">
+
+<i class="fa fa-times" style="color:rgba(0,0,0,0.5);font-size:20px;margin-left:1150px;margin-top:20px;cursor:pointer" onclick="closeS()" ></i>
+<br/>
+<i class="fa fa-search" style="border:none;padding:7px 10px;font-size:25px;color:grey;margin:-10px 0px 0px;border-bottom:1px solid grey;"> </i><input type="Search" name="Search" size="75" placeholder="Search"  style="border:none;padding:5px 10px;font-size:25px;margin:-10.5px -0px;border-bottom:1px solid grey; background-color:rgb(250,250,250);" ></input>
+</div>
+</li>
+
+   </ul>
+</div >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+<img src="bg.jpg" width="100%" style="position:absolute;clip:rect(300px,1335px,700px,0px);margin-top:-310px;z-index:-1"/>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="overflow:auto;margin-top:450px">
+
+
+
+
+
+
+<div id="info" style="float:left;" >
+<ul>
+<li><p>SHIPPING</p></li>
+<li><a href="#">Order Status &Tracking </a></li>
+<li><a href="#">Shipping & Handling </a></li>
+<li><p>RETURNS</p></li>
+<li><a href="#">Return Policy </a></li>
+<li><a href="#">Making a Return </a></li>
+<li><a href="#">Easy Returns </a></li>
+<li><p>SHOPPING & PAYMENT</p></li>
+<li><a href="#">Promotion Codes </a></li>
+<li><a href="#">Payment Method </a></li>
+<li><a href="#">Cancelling Or Changing An Order </a></li>
+<li><p>GIFT SERVICES</p></li>
+<li><a href="#">In-Store Gift Services </a></li>
+<li><a href="#">Online Gift Services </a></li>
+<li><a href="#">Physical & Virtual Gifts Cards </a></li>
+<li><p>ACCOUNT INFORMATION</p></li>
+<li><a href="#">Address Book </a></li>
+<li><a href="#">Benifits Of Registering</a></li>
+<li><a href="#">Forgotten Password? </a></li>
+<li><a href="#">Storing Credit Card Information</a></li>
+<li><a href="#">Order History </a></li>
+<li><a href="#">Pricing Guarantee </a></li>
+<li><a href="#">Sales Tax</a></li>
+<li><p>ABOUT OUR PRODUCTS</p></li>
+<li><a href="#">Alterations </a></li>
+<li><a href="#">Product Care & Policy </a></li>
+<li><a href="#">Sizing Guidelines </a></li>
+<li><p>PRIVACY POLICY</p></li>
+<li><a href="#">Policy</a></li>
+<li><p>FAQ'S </p></li>
+<li><a href="#"> General</a></li>
+<li><a href="#">Merchandise </a></li>
+<li><a href="#"> Shopping</a></li>
+<li><a href="#">Website </a></li>
+<li><a href="#">Counterfeit Product </a></li>
+<li><p>COMPANY INFORMATION</p></li>
+<li><a href="#">Contact Us </a></li>
+<li><a href="#">Terms Of Use & Copyright </a></li>
+<li><a href="#">Operating Guidelines </a></li>
+</ul>
+
+<div>
+<p style="font-weight:700;margin-left:30px;margin-top:40px ; font-size:20px;">NEED HELP?</p>
+<p style="margin-left:30px;margin-right:40px;"> If you have any questions or need help with your account, you may contact us to assist you.</p><br/>
+<pre style="margin-left:40px;font-size:15px;font-family:'arial';color:rgba(0,0,0,0.9)">Customer Assistance
+
+Monday to Friday
+8 AM to 12 AM ET
+Saturday & Sunday
+9 AM to 7:30 PM ET
+888-475-7674
+</pre>
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div style=" float:right; width:40%;margin-right:200px;color:rgba(0,0,0,0.6);padding-left:210px;border-left:1px solid black;">
+<h2 style="font-size:35px;margin:10px 0px;color:rgba(0,0,0,0.9)"> SHOPPING</h2><br/>
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> What forms of payment can I use??</p>
+<p style=" color:grey;font-size:17px ;"> RalphLauren.com accepts the following forms of payment:
+<p>
+<p style=" color:grey;font-size:17px ;"> Credit cards:
+<p>
+<ul>
+<li>Visa</li>
+<li>MasterCard</li>
+<li>American Express</li>
+<li>Discover</li>
+</ul>
+<p style=" color:grey;font-size:17px ;"> Other forms of payment:
+<p>
+
+<ul>
+<li>Online gift certificates</li>
+<li>Ralph Lauren gift cards</li>
+<li>Credit Card gift cards*</li>
+<li>PayPal Credit</li>
+<li>PayPal</li>
+</ul>
+
+<p style=" color:grey;font-size:17px ;"> We do not accept:
+<p>
+
+<ul>
+<li>CODs</li>
+<li>Layaway</li>
+<li>Personal checks</li>
+<li>Money orders</li>
+</ul>
+
+<p style=" color:grey;font-size:17px ;">*Credit Card gift cards can only be redeemed for orders less than or equal to the full amount on the gift card. Orders cannot be split between two forms of payment when using a Credit Card gift cards.
+<p><br/>
+
+
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> When will my order ship?</p>
+<p style=" color:grey;font-size:17px ;"> Pending order verification and credit approval, orders placed with Economy or Standard shipping will ship within 1–3 business days and orders placed with an expedited shipping method will ship within 1 business day. Saturday, Sunday, and holidays are not considered business days.</p> <br/>
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> When will my order arrive?</p>
+<p style=" color:grey;font-size:17px ;">You can expect your items to arrive by the estimated delivery date, which is shown for each item during checkout and included in your order confirmation email. Your items may arrive sooner than the estimated delivery date. Please also note that the estimated delivery date is an estimate only and is not guaranteed. <p>
+<p style=" color:grey;font-size:17px ;">Shipments to Alaska, Hawaii, Puerto Rico, US Virgin Islands, Guam, Marshall Islands, Northern Mariana Islands, Samoa, and any P.O. boxes are shipped via U.S. Postal Service Priority Mail. Economy, 2-Business Day, Next Day, and Saturday delivery options are not available. Please allow 5 to 10 business days for delivery. <p>
+<p style=" color:grey;font-size:17px ;">RalphLauren.com is proud to offer shipping to APO addresses. The delivery time for APO shipping may vary. <p>
+<p style=" color:grey;font-size:17px ;">Delivery schedule dates are estimated. Actual delivery dates may vary depending on shipping locations. <p>
+<br/>
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> What does it cost to ship my order?</p>
+
+<table id="ship">
+<tr>
+<th>Shipping Method</th>
+<td>Economy</td>
+<td>Standard</td>
+<td >2-Business   Day</td>
+<td>Next   Day</td>
+<td>Saturday</td>
+
+</tr>
+
+<tr>
+<th>Rate</th>
+
+<td>$5</td>
+<td>$8</td>
+<td>$20</td>
+<td>$25</td>
+<td>$35</td>
+
+</tr>
+
+</table>
+
+
+<p style=" color:grey;font-size:17px ;">Sometimes we offer free shipping promotions whereby the shipping rates will change.</p>
+<p style=" color:grey;font-size:17px ;">Gift cards are shipped separately free of charge.</p>
+<p style=" color:grey;font-size:17px ;">Ralph Lauren Lighting is shipped separately at an additional flat rate of $28 per lamp. (Note: Lamps ship with the base and the shade as 2 separate packages for the one flat rate.)</p>
+
+<br/>
+
+
+
+
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> Do you ship outside the United States?</p>
+<p style=" color:grey;font-size:17px ;">We ship to more than 20 countries outside the US. For a complete list, click on the country selector next to the store locator at the top of any RalphLauren.com page. Additionally, there are Ralph Lauren stores all over the world. Use our  <a href="#" style="text-decoration:none;color:black;">store locator</a> to find the one nearest you.
+ <p><br/>
+
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> By which carrier will my order be shipped?</p>
+<p style=" color:grey;font-size:17px ;">We use different carriers to get customers their orders as quickly and efficiently as possible. Once your order has shipped, you will receive an email with the name of the carrier and any tracking information. </p>
+<p style=" color:grey;font-size:17px ;">Orders sent by 2-Business Day or Next Day shipping methods are delivered Monday through Friday from 8 AM through 4:30 PM. We recommend choosing 2-Business Day or Next Day delivery if you are shipping your package to a business address. </p>
+
+<p style=" color:grey;font-size:17px ;"> Orders placed with Saturday delivery will arrive Saturday if placed between 3:01 PM ET Thursday and 3 PM ET Friday. If an order is placed after these hours, it will be shipped via Next Day shipping, and will arrive on the next business day.</p>
+
+<p style=" color:grey;font-size:17px ;">Please note: Orders greater than 30 units are not eligible for expedited shipping (2-Business Day, Next Day, or Saturday delivery) </p>
+<br/>
+
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> What if I change my mind and want a different size or color after my order is processed?</p>
+<p style=" color:grey;font-size:17px ;">Once your RalphLauren.com order has been processed, you cannot make changes. For assistance, please call our Customer Assistance representatives at 888-475-7674.</p> <br/>
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;">If I’m not happy with my purchase, can I return it?</p>
+<p style=" color:grey;font-size:17px ;">If you are not entirely satisfied with your recent RalphLauren.com order, we will gladly accept the return of items that are in new condition and have not been worn, washed, or altered.<p>
+<p style=" color:grey;font-size:17px ;">Returns must be made according to the guidelines of our <a href="#" style="text-decoration:none;color:black;">Return Policy.</a><p>
+<p style=" color:grey;font-size:17px ;">Personalized items cannot be returned.<p><br/>
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> If I give a gift to someone, can that person return it?</p>
+<p style=" color:grey;font-size:17px ;">Returning gifts is easy, since all gifts come with both a gift receipt and a postage-paid return label. Gift recipients who return an item will be issued a Virtual Gift Card from RalphLauren.com.<p> <br/>
+<p style=" color:grey;font-size:17px ;">Personalized items cannot be returned.<p> <br/>
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> What should I do if an item arrives damaged?</p>
+<p style=" color:grey;font-size:17px ;">Customer satisfaction is our goal at RalphLauren.com. Please contact our Customer Assistance representatives at 888-475-7674 and we will replace the item.<p> <br/>
+
+<p style=" color:rgba(0,0,0,0.9);font-size:19px ;"> Can I see a record of my RalphLauren.com transactions?</p>
+<p style=" color:grey;font-size:17px ;">Customers who register for an account can easily access their Order History, with all details regarding past purchases and status of pending orders.<p> <br/>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="foot">
+
+  <div style="width:100%">
+   <div  style="float:left" ><img src="ralph-lauren-logo_1x.jpg" alt="RALPH LAUREN" style="sheight:auto;margin:20px 50px ;width:250px "> 
+  <p style=" margin:20px 40px;color:white;font-size:20px;text-align:center;">RALPH  LAUREN</p> </div>  
+
+
+<div id="contact" style="float:left;width:30%" >
+
+    <p style="font-size:30px;">CONTACT US</p>
+
+    <pre><i class="fa fa-phone">  +91-912345678 , 987654321 </i></pre>
+    <br/>
+    <pre><i class="fa fa-envelope">  lauren7892@ralphlauren.ac.uk</i></pre>
+    <br/>
+    <pre><i class="fa fa-map-marker">  650 Madison Ave (btw 59th & 58th St)
+    New York, NY 10022
+    United States
+    </i>
+    </pre>
+    <br/>
+
+  </div>
+
+  <div id="link" style="float:left;width:30%" >
+  <p style="font-size:30px;">LINK</p>
+  <ul>
+    <a href="#"><li> Blogs </li></a>
+    <a href="#"><li> FAQ's </li></a>
+    <a href="#"><li> Services </li></a> 
+    <a href="#"><li> Jobs</li></a>
+    <a href="#"><li> Privacy Policy</li></a>
+    <a href="#"><li> Terms and Conditions </li></a>
+    </ul>
+    </div>
+</div>
+
+<hr style="color:white;margin-top:10px;width:100%;"/>  
+    <div id="social">
+    <div id="face"><a href="#"><i class="fa fa-facebook " ></i></a><p style="color:white;margin-top:2px" id="fac">facebook</p></div>
+    <div id="face"><a href="#"><i class="fa fa-instagram "></i></a><p style="color:white;margin-top:2px" id="fac">Instagram</p></div>
+    <div id="face"><a href="#"><i class="fa fa-youtube"></i></a><p style="color:white;margin-top:2px;margin-left:4px;" id="fac">Youtube</p></div>
+    <div id="face"><a href="#"><i class="fa fa-linkedin "></i></a><p style="color:white;margin-top:2px;margin-left:5px;" id="fac">LinkedIn</p></div>
+    <div id="face"><a href="#"><i class="fa fa-twitter "></i></a><p style="color:white;margin-top:2px;margin-left:9px;" id="fac">Twitter</p></div>
+    <div id="face"><a href="#"><i class="fa fa-google-plus "></i></a><p style="color:white;margin-top:2px;margin-left:9px;" id="fac">Google+</p></div>
+    <div id="face"><a href="#"><i class="fa fa-pinterest-p "></i></a><p style="color:white;margin-top:2px;margin-left:4px;" id="fac">Pinterest</p></div>
+    <div id="face"><a href="#"><i class="fa fa-tumblr"></i></a><p style="color:white;margin-top:2px;margin-left:7px;" id="fac">Tumblr</p></div>
+    </div>
+<br/>   
+
+  
+</div>
+
+
+<script>
+function openNav() {
+	
+	document.getElementById("Log").style.width="100%";
+	document.getElementById("Log").style.zIndex="6";
+       document.getElementById("Sign").style.zIndex="5";
+	
+}
+
+function closeNav() {
+	document.getElementById("Log").style.width="0%";	
+	document.getElementById("Log").style.zIndex="5";
+	}
+
+
+function openNa() {
+	document.getElementById("Sign").style.width="100%";
+	document.getElementById("Log").style.zIndex="5";
+       document.getElementById("Sign").style.zIndex="6";
+	}
+
+function closeNa() {
+	document.getElementById("Sign").style.width="0%";
+	document.getElementById("Sign").style.zIndex="5";
+}
+
+
+function openS(){
+	document.getElementById("sear").style.display="block";
+}
+
+function closeS(){
+	document.getElementById("sear").style.display="none";
+}
+
+
+</script>
+
+
+
+
+</body>
+</html>
